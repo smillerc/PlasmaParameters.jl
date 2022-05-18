@@ -1,6 +1,4 @@
+using Test, Unitful, PhysicalConstants.CODATA2018
 using PlasmaParameters
-using Test
 
-@testset "PlasmaParameters.jl" begin
-    # Write your tests here.
-end
+include("unit/runtests.jl")
